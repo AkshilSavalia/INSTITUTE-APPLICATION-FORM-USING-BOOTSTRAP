@@ -1,0 +1,53 @@
+   .main{
+            border: 2px solid #4caf50;
+            margin: 8px;
+        }
+       
+        li{
+            display: inline-block;
+        }
+            @media screen and (min-width: 768px) {
+          .set{
+              position: relative;
+              left: 0px;
+          }
+         
+}
+               
+                @media screen and (max-width: 360px) {
+          .set{
+              padding-top: 10px;
+              padding-left: 5px;
+          }
+         
+}
+        #self:before{
+            content: " Incase Of CGPA/CPI please write equivalent pecentage. ";
+            padding-left: 5px;
+            background-color: #f2dede;
+            font-size: 12px;
+            color: darkred;
+            border: 0px solid pink;
+            border-radius: 3px;
+        }
+          #self2:after{
+            content: " Date Format should be: (DD-MM-YYYY)";
+            padding-left: 5px;
+            background-color: #f2dede;
+            font-size: 12px;
+            color: darkred;
+            border: 0px solid pink;
+            border-radius: 3px;
+              padding-top: 0px;
+        }
+          #self2:before{
+            content: " Details (Start From Most Recent One) ";
+            padding-left: 5px;
+            margin-top: 0px;
+            background-color: #f2dede;
+            font-size: 12px;
+            color: darkred;
+            border: 0px solid pink;
+            border-radius: 3px;
+        }
+        
